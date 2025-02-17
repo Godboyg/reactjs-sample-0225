@@ -31,7 +31,7 @@ function Register() {
     setPassword("");
     const data = { name , email , password};
     console.log("form submitted");
-    const response = await axios.post("/createUser", data );
+    const response = await axios.post("/api/createUser", data );
     console.log(response.data.token);
 
     setTokenInCookie(response.data.token);
