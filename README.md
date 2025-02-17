@@ -1,3 +1,9 @@
+**Sorry for the late response.....and i couldn't make the vedio to....but i have live link of my react/nextjs application..**
+
+LIVE LINK - https://papaya-cannoli-31b605.netlify.app/
+
+
+
 <<<<<<< HEAD
 # reactjs-sample-0225
 =======
