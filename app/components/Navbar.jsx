@@ -34,17 +34,17 @@ function Navbar() {
 
   return (
     <>
-    <div className=" flex items-center justify-between py-[1.25vw] px-[3.5vw] text-white text-xl sm:bg-blue-900 md:bg-blue-900 md:h-[15vh] md:py-[4vw]">
+    <div className=" flex items-center justify-between py-[3.5vw] px-[3.5vw] bg-blue-600 text-white sm:text-xl  md:h-[15vh] md:py-[4vw] sm:bg-blue-800 md:bg-blue-900">
         <div className="flex items-center gap-[2vw]">
-            <div className="overflow-hidden rounded-full sm:h-[14vw] sm:w-[14vw] md:h-[6vw] md:w-[6vw]">
+            <div className="overflow-hidden rounded-full h-[15vw] w-[15vw] sm:h-[10vw] sm:w-[10vw] md:h-[6vw] md:w-[6vw]">
                 <img className='h-full w-full object-cover' src="https://images.pexels.com/photos/1203777/pexels-photo-1203777.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
             </div>
             <div className="">
-              <h3 className='sm:text-[5vw] md:text-[3vw]'>TasksBoard</h3>
+              <h3 className='text-[7vw] text-black sm:text-[2.8vw] md:text-[3vw]'>TasksBoard</h3>
             </div>
         </div>
         <div className="flex gap-[3vw]">
-            <div className="rounded-full overflow-hidden sm:h-[14vw] sm:w-[14vw] md:h-[6vw] md:w-[6vw]">
+            <div className="rounded-full overflow-hidden h-[15vw] w-[15vw] sm:h-[10vw] sm:w-[10vw] md:h-[6vw] md:w-[6vw]">
               { img ? (
                    <img className='h-full w-full object-cover' src={img} alt="" />
                 ) : (
